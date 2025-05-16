@@ -1,0 +1,61 @@
+.DS_Store
+node_modules
+.next
+.vercel
+out
+tmp
+*.swp
+*.env
+
+allure-results
+allure-report
+
+# turbo
+.turbo
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage
+lib-cov
+coverage
+*.lcov
+.nyc_output
+
+# Node
+.lock-wscript
+build/Release
+.npm
+*.tgz
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Common tools
+.grunt
+bower_components
+typings/
+jspm_packages/
+*.tsbuildinfo
+.eslintcache
+.node_repl_history
+.yarn-integrity
+.cache
+.nuxt
+.vuepress/dist
+.serverless/
+.fusebox/
+.dynamodb/
+.docz
+**/supabase/.branches
+**/supabase/.temp

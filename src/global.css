@@ -1,0 +1,14 @@
+/* Enable Tailwind */
+@import 'tailwindcss';
+
+/* Use Tailwind's @source directive to process components from @clutch-marketplace  */
+@source '../node_modules/@clutch-marketplace/**/components/**/*.js';
+
+/* Import base utilities and theme from the Elements package */
+@import '@clutch-marketplace/clutch.clutch-elements/dist/global.css';
+
+/* Disable deafult view transition (fade) */
+::view-transition-old(root),
+::view-transition-new(root) {
+  animation: none;
+}
